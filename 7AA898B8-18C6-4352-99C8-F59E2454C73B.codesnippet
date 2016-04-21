@@ -3,27 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ddsingle</string>
+	<string>ddcdd</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (instancetype)shared&lt;#name#&gt; {
-        static &lt;#class#&gt; *_shared&lt;#name#&gt; = nil;
-        static dispatch_once_t onceToken;
-        dispatch_once(&amp;onceToken, ^{
-            _shared&lt;#name#&gt; = &lt;#initializer#&gt;;
-        });
-        
-        return _shared&lt;#name#&gt;;
-    }</string>
+	<string>#pragma - mark UICollectionViewDelegate
+
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
+    return 1;
+}
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return 10;
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    return nil;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D9D1132C-17E5-40A3-93B9-C4B4467BB4F7</string>
+	<string>7AA898B8-18C6-4352-99C8-F59E2454C73B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ddsingle</string>
+	<string>ddcdd</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

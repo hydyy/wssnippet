@@ -9,9 +9,29 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)bindView {}
-- (void)bindModel {}
-- (void)bindAction {}
+	<string>
+- (void)bindView {
+}
+
+- (void)bindModel {
+}
+
+- (void)bindAction {
+}
+
+//*****************************************************************
+// MARK: - actions
+//*****************************************************************
+
+//*****************************************************************
+// MARK: - delegates
+//*****************************************************************
+
+//*****************************************************************
+// MARK: - getter
+//*****************************************************************
+
+
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>AA37CD19-9180-46DB-BF47-E799D32EF9D8</string>
