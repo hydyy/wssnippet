@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ddmm</string>
+	<string>ddasv</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#param#&gt;</string>
+	<string>[self.view addSubview:&lt;#(nonnull UIView *)#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BD8A8D4A-1C4A-485B-B027-1BDFD5C25113</string>
+	<string>B66949BF-A30E-4FD2-B2F5-CAA65CEFEF1D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ddmm</string>
+	<string>ddaddsubview</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
