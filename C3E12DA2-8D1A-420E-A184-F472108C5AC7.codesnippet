@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ddgetter</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (&lt;#p#&gt;)&lt;#p#&gt; {
+    if (!_&lt;#p#&gt;) {
+        &lt;#p#&gt; *obj = [&lt;#p#&gt; new];
+        
+        _&lt;#p#&gt; = obj;
+    }
+    return _&lt;#p#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C3E12DA2-8D1A-420E-A184-F472108C5AC7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ddgetter</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ddgetter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
