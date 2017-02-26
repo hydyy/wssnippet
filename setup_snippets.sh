@@ -10,7 +10,7 @@ rm -rf ~/Library/Developer/Xcode/UserData/CodeSnippets/*
 # mkdir ~/Documents/gitCode/wssnippet/
 
 # copy new
-cp -R ~/Documents/gitCode/wssnippet/*.codesnippet ~/Library/Developer/Xcode/UserData/CodeSnippets/
+cp -R ./*.codesnippet ~/Library/Developer/Xcode/UserData/CodeSnippets/
 
 echo "done"
 
